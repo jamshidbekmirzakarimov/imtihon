@@ -84,6 +84,7 @@
   --footer-text-color: #a1a8b7;
   --section-bg-color: #f2f4f6;
   --hover-color: #1aab7b;
+  --img-bg-color: #e1e7ed;
 }
 
 * {
@@ -266,5 +267,105 @@ body {
 
 /* ************ hero section end *********** */
 
+/* ************ it-jobs-section start *********** */
+.it-jobs-section {
+  background-color: var(--section-bg-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.it-jobs-section-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.it-jobs-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  gap: 32px;
+}
+
+.it-jobs-section-item {
+  width: 384px;
+  min-height: 358px;
+  display: flex;
+  flex-direction: column;
+  background: var(--section-bg-color);
+  border: 2px solid #e1e7ed;
+  border-radius: 6px;
+  padding: 30px 30px 40px 30px;
+}
+
+.it-jobs-section-item:hover {
+  background-color: var(--hover-color);
+  border: 2px solid transparent;
+}
+
+.it-jobs-section-item:hover
+  > .it-jobs-section-item-start
+  > .it-jobs-section-item-title {
+  color: var(--text-desc-color);
+}
+
+.it-jobs-section-item:hover > .it-jobs-section-item-start > .it-jobs-icon {
+  background-color: var(--text-desc-color);
+}
+
+.it-jobs-section-item:hover > .it-jobs-section-item-subtitle {
+  color: var(--text-desc-color);
+}
+
+.it-jobs-section-item:hover > .it-jobs-section-view-more {
+  text-decoration: underline;
+  color: var(--text-desc-color);
+}
+
+.it-jobs-section-item-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  color: #101010;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.it-jobs-section-item-start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
+
+.it-jobs-icon {
+  padding: 17px;
+  background-color: var(--img-bg-color);
+  border-radius: 50%;
+}
+
+.it-jobs-section-item-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--subtext-color);
+  margin: 0px;
+  flex-grow: 1;
+}
+
+.it-jobs-section-view-more {
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+  text-decoration: none;
+}
+/* ************ it-jobs-section end *********** */
 /* ************* site main end *************** */
