@@ -334,7 +334,7 @@ body {
   font-weight: 600;
   font-size: 32px;
   line-height: 140%;
-  color: #101010;
+  color: var(--text-color);
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -368,4 +368,120 @@ body {
   text-decoration: none;
 }
 /* ************ it-jobs-section end *********** */
+
+/* *************** work section start  ****************** */
+.work-section {
+  background-color: var(--bg-color);
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.work-section-title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.work-section-subtitle {
+  font-family: "Plus Jakarta Sans";
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--subtext-color);
+  width: 650px;
+  margin-top: 0;
+  margin-bottom: 90px;
+}
+
+.work-section-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.work-section-list-item {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.work-section-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.img-bussains {
+  margin-right: 32px;
+  width: 488px;
+  height: 390px;
+}
+
+.work-section-item-title {
+  width: 488px;
+  font-size: 40px;
+  line-height: 140%;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.work-section-box-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--subtext-color);
+  width: 488px;
+}
+
+.work-section-list-item-middle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 94px;
+}
+
+.work-section-box-text-middle {
+  margin-right: 32px;
+}
+
+.middle-title {
+  width: 592px;
+}
+/* *************** work section end  ****************** */
+/* **************** input-bar-section start ***************** */
+.input-bar-section {
+  background-color: var(--bg-color);
+  padding-bottom: 200px;
+}
+
+.input-bar-section-title {
+  width: 411px;
+  margin: 0 auto;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  color: #101010;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.input-bar-section-subtitle {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  margin: 0 auto;
+  color: #636f87;
+  width: 650px;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+/* **************** input-bar-section end ***************** */
 /* ************* site main end *************** */
