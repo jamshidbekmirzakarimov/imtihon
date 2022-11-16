@@ -83,6 +83,7 @@
   --footer-bg-color: #101010;
   --footer-text-color: #a1a8b7;
   --section-bg-color: #f2f4f6;
+  --hover-color: #1aab7b;
 }
 
 * {
@@ -96,10 +97,12 @@ body {
 
 /* *************** site header start *************** */
 .site-header {
+  position: sticky;
+  top: 0;
   background-color: var(--bg-color);
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #EEEEF4;
+  border-bottom: 1px solid #eeeef4;
 }
 
 .container {
@@ -124,12 +127,10 @@ body {
 
 .site-header-logo-link:hover {
   opacity: 0.8;
-  transition: all 0.2s linear;
 }
+
 .site-header-logo-link:active {
   opacity: 0.6;
-}
-.site-header-logo-link:hover {
 }
 
 .site-header-start {
@@ -142,6 +143,7 @@ body {
   align-items: center;
   list-style: none;
   padding-left: 0;
+  width: 402px;
 }
 
 .site-nav__item {
@@ -162,6 +164,15 @@ body {
   text-decoration: none;
 }
 
+.site-nav-item_link:hover {
+  color: var(--hover-color);
+}
+
+.site-nav-item_link:active {
+  color: var(--hover-color);
+  opacity: 0.6;
+}
+
 .site-header-tel {
   text-decoration: none;
   font-weight: 700;
@@ -173,4 +184,87 @@ body {
   border-radius: 6px;
   padding: 12px 24px;
 }
+
+.site-header-tel:hover {
+  border: 1px solid var(--hover-color);
+  color: var(--hover-color);
+  background-color: var(--bg-color);
+}
+
+.site-header-tel:active {
+  background: var(--footer-bg-color);
+  opacity: 0.6;
+  color: var(--text-desc-color);
+}
 /* *************** site header end *************** */
+
+/* ************* site main start *************** */
+/* ************ hero section start *********** */
+.hero-section {
+  background-color: var(--bg-color);
+  padding-top: 91px;
+  padding-bottom: 156px;
+}
+
+.hero-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section-box-start {
+  width: 550px;
+}
+
+.hero-section-title {
+  width: 550px;
+  font-size: 56px;
+  line-height: 140%;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hero-section-subtitle {
+  width: 537px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--subtext-color);
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.hero-section-btn {
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--text-desc-color);
+  padding: 20px 40px;
+  background-color: var(--btn-bg-color);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  border: 1.5px solid transparent;
+}
+
+.hero-section-btn:hover {
+  border: 1.5px solid var(--hover-color);
+  background-color: var(--bg-color);
+  color: var(--hover-color);
+}
+
+.hero-section-btn:active {
+  opacity: 0.7;
+  background-color: var(--btn-bg-color);
+  border: 1.5px solid transparent;
+  color: var(--text-desc-color);
+}
+
+.hero-section-iframe {
+  border-radius: 6px;
+}
+
+/* ************ hero section end *********** */
+
+
+/* ************* site main end *************** */
