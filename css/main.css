@@ -602,5 +602,160 @@ body {
   font-size: 16px;
   line-height: 150%;
 }
+
 /* **************** input-bar-section end ***************** */
+
+/* ****************** site section footer start ****************** */
+.site-footer {
+  max-width: 100%;
+  background-color: var(--footer-bg-color);
+  padding-top: 100px;
+}
+
+.site-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.site-footer-start {
+  display: flex;
+}
+
+.site-footer-list {
+  list-style: none;
+  padding-left: 0;
+  margin-right: 151px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-footer-list-end {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.site-footer-list-end-address {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.site-footer-item-link {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--img-bg-color);
+}
+
+.site-footer-item-active {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--text-desc-color);
+  margin-bottom: 30px;
+}
+
+.site-footer-item:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer-item {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 150%;
+  color: #a1a8b7;
+  margin-bottom: 26px;
+  margin-top: 0;
+}
+.site-footer-tel {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #a1a8b7;
+}
+
+.site-footer-item-name {
+  width: 280px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #a1a8b7;
+}
+
+.site-footer-list-network {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  width: 216px;
+  justify-content: space-between;
+}
+
+.site-footer-list-network:first-child {
+  margin-left: 0;
+}
+
+.site-footer-end-end {
+  border-top: 1px solid #3b4155;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.site-footer-end-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer-end-subtitle {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: right;
+  color: var(--bg-color);
+  margin: 0;
+}
+
+.site-footer-logo:hover {
+  opacity: 0.8;
+}
+.site-footer-logo:active {
+  opacity: 0.6;
+}
+
+.site-footer-item-link {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #a1a8b7;
+}
+
+.site-footer-item-link:hover{
+  color: var(--hover-color);
+}
+
+.site-footer-item-link-active {
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--text-desc-color);
+  text-decoration: none;
+}
+
+/* ****************** site section footer end ****************** */
 /* ************* site main end *************** */
